@@ -1,7 +1,0 @@
-require "rubygems"
-require "geminabox"
-
-Geminabox.data = "<%= @data_dir %>"
-Geminabox.rubygems_proxy = <%= if @use_rubygems_proxy %>
-run Geminabox
-
